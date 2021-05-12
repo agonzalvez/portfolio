@@ -1,38 +1,38 @@
+*{background: white;
+padding: 0px;
+margin: auto;};
 
 main{
     display: flex;
-    width:fit-content;
-    height: fit-content;
+    width:100%;
     margin-block-start: 0%;
     margin-block-end: 0%;
 }
 
 .main-header {
     position:relative;
-    display:block;
+    display:content;
     max-width:100%;
     height:100%;
-    margin:0 auto;
-    padding:0px;
+    margin-left:0 auto;
+    padding:0 1rem;
     background:transparent;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     font-size: 6rem;
-    margin: 0x; 
+    padding: 1rem; 
     text-align: start;
     display: contents;
 
 }
 .main-nav {
-    box-sizing: border-box;
     padding-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 2px;
     list-style: none;
     display: flex;
     flex-direction: row-reverse;
-    font-family: 'Montserrat', sans-serif; 
     height: fit-content; 
 }
 
@@ -41,10 +41,11 @@ nav  li {
     display: inline;
     list-style-type: none;
     font-size: x-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     color:black;
-    padding:10px;
+    padding: 0 ;
+    justify-content: flex-end;
     
 }
 
@@ -54,17 +55,76 @@ nav ul{
     margin-block-end: 0%;
 }
 
+.parent-section{
+    border: solid;
+    padding: 1rem;
+    margin: 5px;
+}
+
 .hero-image img{
     width: 100%;
-    height: auto;
-    background-size: contain;
+    height: 200px;
+    justify-items: stretch;
 }
 
 figcaption{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: end;
 }
 
+article{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+section .about-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    
+}
+
+.about{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bio{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.work-container{
+
+}
+.work{
+    display: block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-container{
+
+}
+
+.contact{
+    display: block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume-container{
+
+}
+
+.resume{
+    display: block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Tablets */
 @media screen and (max-width: 992px){
