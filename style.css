@@ -70,8 +70,8 @@ nav ul{
 
 /* Hero image banner */
 .hero-image img{
-    width: 100%;    
-    justify-items: stretch;
+    display: flex;
+    justify-content: stretch; 
 }
 
 figcaption{
