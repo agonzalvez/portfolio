@@ -1,0 +1,96 @@
+
+main{
+    display: flex;
+    width:fit-content;
+    height: fit-content;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+.main-header {
+    position:relative;
+    display:block;
+    max-width:100%;
+    height:100%;
+    margin:0 auto;
+    padding:0px;
+    background:transparent;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 6rem;
+    margin: 0x; 
+    text-align: start;
+    display: contents;
+
+}
+.main-nav {
+    box-sizing: border-box;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Montserrat', sans-serif; 
+    height: fit-content; 
+}
+
+nav  li {
+    position:relative;
+    display: inline;
+    list-style-type: none;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+    color:black;
+    padding:10px;
+    
+}
+
+nav ul{
+    padding:0px;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+.hero-image img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+figcaption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+}
+
+
+/* Tablets */
+@media screen and (max-width: 992px){
+}
+
+  
+/* Large smartphones */
+@media screen and (max-width: 768px){
+    .main-nav li{
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav li{
+        display: flex;
+        flex: wrap;
+        text-align: center;
+    }
+}
+
+  
+/* Small smartphones */
+@media screen and (max-width: 576px){
+    .main-nav li{
+        display: flex;
+        justify-content: center;
+    }
+}
+ 
