@@ -81,11 +81,18 @@ nav ul{
 width: 100%;
 }
 
-figcaption{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: end;
-    margin-right: 10px;
-}
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    font-family: arial;
+    font-size: x-large;
+    border: solid;
+    border-radius: 10px;
+    background: cadetblue;
+    padding: 2px;
+    margin-bottom: 300px;
+  }
 
 /* About me section */
 section .about-container{
@@ -105,12 +112,23 @@ section .about-container{
 .about{
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+}
+
+#about{
+    align-items: center;
+    text-decoration: underline;
+    
+}
+
+#about-line{
 }
 
 article{
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    margin-left: 40%;
 }
 
 /* Work section */
@@ -120,11 +138,15 @@ article{
 
 }
 .work{
-    display: block;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-  
+  }
+
+.top-row{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
 
 /* Contact section */
 
@@ -135,7 +157,6 @@ article{
 }
 
 .contact{
-    display: block;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -148,7 +169,6 @@ article{
 }
 
 .resume{
-    display: block;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
