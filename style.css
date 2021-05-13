@@ -66,6 +66,7 @@ nav ul{
     margin: 5px;
     border: solid;
     border-radius: 10px;
+    border-width: 1px;
 }
 /* ----------------------------------------------------*/
 
@@ -73,6 +74,7 @@ nav ul{
 
 .image-wrapper{
     width: 100%;
+    position: relative;
 }
 #hero{
 width: 100%;
@@ -80,19 +82,17 @@ width: 100%;
 
 .bottom-right {
     position: inherit;
-    bottom: 0;
-    right: 0px;
     font-family: arial;
-    font-size: x-large;
     border: solid;
     border-radius: 10px;
     background: cadetblue;
-    padding: 2px;   
+    padding: 2px;
     text-align: end;
-    margin-left: 70%;
-    margin-right: 10%;
     z-index: 1;
-  }
+    display: inline;
+    left: 70%;
+    bottom: 20%;
+}
 
 /* About me section */
 section .about-container{
@@ -105,8 +105,7 @@ section .about-container{
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    border: solid;
-    border-radius: 10px;
+    display: flex;
 }
 
 .about{
@@ -118,28 +117,43 @@ section .about-container{
 
 #about{
     align-items: center;
+    padding-top: 15%;
     text-decoration: underline;
-    
+    text-align: center;
+    flex:0 0 204px;
 }
 
 #about-bar{
-    position: relative;
-    left: 35%;
+    flex: 1 0 30;
 }
 
 article{
     display: inline-block;
     font-size: large;
-    margin-left: 36%;
-    padding: 1%;
+    padding: 9%;
+    padding-top: 9%;
+    flex: 3 0 400px;
+    text-align: justify;
 }
 
 /* Work section */
 .work-container{
-    border: solid;
-    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
 
+}
+
+#work-bar{
+
+}
+
+#work{
+    align-items: center;
+    padding-top: 15%;
+    text-decoration: underline;
+    text-align: center;
+    flex:0 0 204px;
 }
 .work{
     font-size: larger;
@@ -148,6 +162,22 @@ article{
 .top-row{
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+ 
+}
+
+.top-content{
+    padding: 5%;
+    
+}
+
+.bottom-content{
+    padding: 5%;
+}
+
+.top-row h3{
+    text-align: center;
 }
 
 
@@ -157,8 +187,25 @@ article{
     border: solid;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    flex-direction: column;
+    padding: 2%;
 
+}
+
+.contact-container h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size:x-large;
+}
+#contact-bar{
+    display: flex;
+    margin: auto;
+    width:80%;
+    height:20px;
+    padding-bottom:1%;
+}
+
+.form-container{
+    margin: auto;
 }
 
 #subject{
@@ -178,6 +225,10 @@ textarea{
     border: solid;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#resume-bar{
 
 }
 
