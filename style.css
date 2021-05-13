@@ -6,6 +6,7 @@
 /* Main section */
 main{
     display: flex;
+    flex-wrap:wrap;
     width:1200px;
     margin-block-start: 0%;
     margin-block-end: 0%;
