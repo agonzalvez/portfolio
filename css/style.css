@@ -289,9 +289,13 @@ textarea{
 
 /* Footer */
 footer{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        border-top: solid crimson;
+        border-width: 10px;    
 }
 
 /* MEDIA QUERIES */
