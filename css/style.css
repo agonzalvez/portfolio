@@ -93,9 +93,6 @@ nav ul{
 .parent-section{    
     padding: 1rem;
     margin: 5px;
-    border: none;
-    border-radius: 10px;
-    border-width: 1px;
 }
 /* ----------------------------------------------------*/
 
@@ -256,11 +253,15 @@ article{
     font-size: larger;
 }
 
-#subject{
-
+input{
+    font-size: medium;
 }
 
 textarea{
+    font-size: large;
+    margin: 0 0 0 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -276,15 +277,6 @@ textarea{
     text-align: center;
     text-decoration: underline;
     font-size:x-large;
-}
-
-#resume-bar{
-
-}
-
-
-.resume{
-    font-size: larger;
 }
 
 /* Footer */
