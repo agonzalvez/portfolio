@@ -16,3 +16,6 @@
 ## Deployment
 - Link to portfolio: https://agonzalvez.github.io/portfolio/
 - Screenshots:
+- ![Landing-page](assets/images/landing-page.png)
+- ![Work](assets/images/work-section.png)
+- ![contact](assets/images/contact-section.png)
