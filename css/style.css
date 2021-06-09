@@ -14,7 +14,7 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    background-image: url("/Users/alejandrogonzalvez/Desktop/ucla-projects/portfolio/images/updated-hero copy.jpg");
+    background-image: url("images/updated-hero copy.jpg");
 }
 
 /* About me section */
@@ -44,7 +44,7 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    background-image: url("/Users/alejandrogonzalvez/Desktop/ucla-projects/portfolio/images/Food-banner-2.jpeg");
+    background-image: url("images/Food-banner-2.jpeg");
     background-size:initial;
 }
 
@@ -81,7 +81,7 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    background-image: url("/Users/alejandrogonzalvez/Desktop/ucla-projects/portfolio/images/clouds.jpeg");
+    background-image: url("images/clouds.jpeg");
     background-size:cover;
 
 }
@@ -127,7 +127,7 @@ body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    background-image: url("/Users/alejandrogonzalvez/Desktop/ucla-projects/portfolio/images/cyber-security.png");
+    background-image: url("images/cyber-security.png");
     background-size:cover;
 }
 
